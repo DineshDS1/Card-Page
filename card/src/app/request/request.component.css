@@ -1,0 +1,207 @@
+
+.request {
+    background-color: #55FFE5;
+    width: inherit;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    padding: 50px;
+}
+
+.connect {
+    background-color: #55FFE5;
+    height: 100vh;
+}
+
+.connect h2 {
+    margin-bottom: 15px;
+}
+
+.connect p {
+    margin-bottom: 30px;
+}
+
+.login {
+    width: 100%;
+    display: flex;
+}
+
+.user {
+    margin-right: 30px;
+}
+
+.mail {
+    margin-right: 30px;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    border-color: #DADADA;
+    padding-right: 40px;
+    outline: none;
+}
+
+label {
+    margin-top: 5px;
+}
+
+.area {
+    margin-top: 15px;
+
+}
+
+textarea {
+    width: 87%;
+    color: #898989;
+    height: 75px;
+    margin-top: 10px;
+    outline: none;
+    border-color: #D3D3D3;
+    padding: 5px;
+    /* resize: none; */
+}
+
+.form {
+    width: 500px;
+    background-color: #fff;
+    color: #0B0685;
+    padding: 40px 0px 50px 50px;
+}
+
+.form h3 {
+    margin-bottom: 30px;
+}
+
+.box1 {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.box2 {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.detail {
+    padding: 40px 0px 50px 50px;
+    color: #fff;
+    width: 350px;
+    background-color: #1C00B5;
+}
+
+.detail h3 {
+    margin-bottom: 30px;
+}
+
+span {
+    margin-left: 30px;
+    
+}
+
+.com {
+    margin-top: 50px;
+}
+
+.number {
+    margin-top: 30px;
+}
+
+.add {
+    margin-top: 30px;
+    display: flex;
+}
+
+.local {
+    margin-top: 25px;
+}
+
+address {
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+button {
+    background-color: #1B00B6;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 1000px) {
+    .request {
+        height:none !important;
+    }
+    .connect {
+        background-color: #55FFE5;
+       height:auto;
+    }
+    .login {
+        width: 100%;
+        display: block;
+    }
+    .form {
+        width: 500px;
+        background-color: #fff;
+        color: #0B0685;
+        padding: 40px 0px 50px 50px;
+    }
+
+    .detail {
+        padding: 40px 0px 50px 50px;
+        color: #fff;
+        width: 500px;
+        background-color: #1C00B5;
+        margin-top: 13px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .request {
+        height:none !important;
+    }
+    .connect {
+        background-color: #55FFE5;
+        height:auto;
+    }
+    .form {
+        width: 320px;
+        background-color: #fff;
+        color: #0B0685;
+        padding: 40px 0px 50px 50px;
+    }
+
+    .detail {
+        padding: 40px 0px 50px 50px;
+        color: #fff;
+        width: 320px;
+        background-color: #1C00B5;
+        margin-top: 13px;
+    }
+    .box1 {
+        display: block;
+        margin-top: 15px;
+    }
+    
+    .box2 {
+        display: block;
+        margin-top: 15px;
+    }
+}
